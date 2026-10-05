@@ -71,3 +71,6 @@ for delete to authenticated using (
 );
 create policy "product image public read" on storage.objects
 for select using (bucket_id='product-images');
+
+
+-- v1.3 fields are applied by migration 20261005173000_project_yield_v13_foundation.sql

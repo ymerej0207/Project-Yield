@@ -1,0 +1,3 @@
+Delete if present:
+app/api/recognize/route.ts
+lib/recognition/product-recognition.ts
